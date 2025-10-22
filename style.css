@@ -1,0 +1,15 @@
+.name {
+    background-color: sienna;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 45vh;
+    border-radius: 10px;
+
+}
+.name:hover {
+    background-color: rgb(155, 96, 69);
+}
+body {
+    background-color: cadetblue;
+}
