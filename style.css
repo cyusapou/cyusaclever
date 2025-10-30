@@ -1,100 +1,21 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(255, 245, 233);
-    
-}
-.navs {
-    display: flex;        
-    gap: 27px;
-    margin-left: 700px;
-    font-size: x-large;
-    cursor: pointer;
-    
-    
-               
-}
-
-.navdiv {
-    padding: 10px 15px;
-    background-color: rgb(101, 90, 255);
-    height: 23vh; 
-       
-}
-.title {
-    font-size: 40px;
-}
-body>nav>div>div>div {
-    
-    border-radius: 10px;
-    width: fit-content;
-    padding: 6px;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-body>nav>div>div>div:hover {
-    background-color: lightblue;
-}
-.aside {
-    background-color:darkslategray;
-    height: 77vh;
-    width: fit-content;
-}
-.asidemain {
-    display: flex;
-}
-.items {
-    padding: 20px;
-    font-size: 30px;
-    border-color: bisque;
-    cursor: pointer;
-}
-.items:hover {
-    background-color: rgb(44, 66, 66);
-}
-.card {
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px grey;
+.container {
+    background-color: aquamarine;
     padding: 30px;
-    font-size: x-large;
+    text-align: center;
+    border-radius: 20px;
     width: fit-content;
-    display: flex;
-    margin: 30px;
-    
-    
-}
-.photo {
-    height: 140px;
-    width: 140px;
-    border-radius: 140px;
-    background-color: aqua;
-    margin-top: 25px;
-    margin-right: 25px;
-}
-.courses {
-    display: flex;
-    margin-left: 20px;
+    align-items: center;
+    margin-top: 170px;
 
 }
-.it {
-    background-color: rgb(255, 255, 255);
+button {
+    border: none;
     border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px 2px grey;
 
 }
-.bottom {
-    width: 100%;
-    background-color: bisque;
-    height: 20vh;
-    width: 800px;
-    padding-left: 500;
-} 
-
-
-
-
-
+input {
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
