@@ -35,7 +35,8 @@ function calc() {
                   x₁ = ${realPart} + ${imagPart}i<br>
                   x₂ = ${realPart} - ${imagPart}i`;
       }
-      result += `<br><br>Discriminant (Δ) = ${delta.toFixed(4)}`;
+      result += `<br><br>Discriminant (Δ) = ${delta.toFixed(4)}
+      `;
 
       output.innerHTML = result;
     }
